@@ -37,6 +37,7 @@ app.get("/api/notes", (req, res) => {
 //   return res.json(notes); //- this says when they hit the /api/notes then to return the notes info that was previously logged
 // });
 const readFromFile = util.promisify(fs.readFile);
+
 //POST Requests to add a note
 const writeToFile = (destination, content) =>
   fs.writeFile(destination, JSON.stringify(content), (err) =>
@@ -130,9 +131,3 @@ app.get("*", (req, res) =>
 app.listen(PORT, () =>
   console.log(`Example app listening at http://localhost:${PORT}`)
 );
-
-//make sure you send a respose after you've made the post so the front end knows something happened
-
-//app.use("api", api) - do i need to use this?
-
-//notes: use uuid to mark each note with an id that you can use to identify and delete specific notes

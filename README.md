@@ -9,7 +9,8 @@ To modify starter code to create an application called Note Taker that can be us
 ```
 AS A small business owner
 I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+SO THAT I can organize my thoughts and keep track of tasks I need to complete.
+I WANT to be able to see previously entered notes when I load my app.
 ```
 
 ## Acceptance Criteria
