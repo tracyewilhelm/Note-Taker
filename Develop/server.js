@@ -1,7 +1,7 @@
 //declaring variables
 const express = require("express");
 const app = express();
-const PORT = 3333;
+const PORT = process.env.PORT || 3333;
 const fs = require("fs");
 const path = require("path");
 const notes = require("./db/db.json");
