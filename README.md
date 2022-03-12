@@ -50,6 +50,7 @@ Submission of BOTH of the following for review:
 - The URL of the functional, deployed application.
 
 - The URL of the GitHub repository, with a unique name and a README describing the project.
+  https://github.com/tracyewilhelm/Note-Taker
 
 ---
 
